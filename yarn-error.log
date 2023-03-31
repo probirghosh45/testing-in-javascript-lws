@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add -D jest @type/jest
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Probir Ghosh\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Go\bin;C:\Users\Probir Ghosh\AppData\Local\Microsoft\WindowsApps;C:\Users\Probir Ghosh\AppData\Roaming\npm;C:\Users\Probir Ghosh\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Probir Ghosh\AppData\Local\Yarn\bin;C:\Program Files\heroku\bin;C:\Users\Probir Ghosh\go\bin;C:\MinGW\bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@type%2fjest: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66138:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:526:28)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:526:28)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:645:28)
+      at IncomingMessage.emit (node:events:538:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "testing-in-javascript-lws",
+    "version": "1.0.0",
+    "description": "[![Youtube][youtube-shield]][youtube-url]\r [![Facebook-Page][facebook-shield]][facebook-url]\r [![Facebook-Group][facebook-shield]][facebook-group-url]\r [![Instagram][instagram-shield]][instagram-url]\r [![LinkedIn][linkedin-shield]][linkedin-url]",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/probirghosh45/testing-in-javascript-lws.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/probirghosh45/testing-in-javascript-lws/issues"
+    },
+    "homepage": "https://github.com/probirghosh45/testing-in-javascript-lws#readme"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
