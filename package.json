@@ -1,0 +1,27 @@
+{
+  "name": "testing-in-javascript-lws",
+  "version": "1.0.0",
+  "description": "[![Youtube][youtube-shield]][youtube-url]\r [![Facebook-Page][facebook-shield]][facebook-url]\r [![Facebook-Group][facebook-shield]][facebook-group-url]\r [![Instagram][instagram-shield]][instagram-url]\r [![LinkedIn][linkedin-shield]][linkedin-url]",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/probirghosh45/testing-in-javascript-lws.git"
+  },
+  "keywords": [],
+  "author": "Probir Ghosh <probirghosh@outlook.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/probirghosh45/testing-in-javascript-lws/issues"
+  },
+  "homepage": "https://github.com/probirghosh45/testing-in-javascript-lws#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "webpack": "^5.77.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
