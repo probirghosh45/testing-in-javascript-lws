@@ -12,12 +12,12 @@ const init = () => {
   newPostButton.addEventListener("click", addPost);
 };
 
-const addPost = async () => {
+const addPost = () => {
   // get user input fields
   const { useridInput, titleInput, articleInput } = getUserInputs();
 
   // check and generate
-  const resultText = await checkAndGenerate(useridInput.value, titleInput.value, articleInput.value);
+  const resultText = checkAndGenerate(useridInput.value, titleInput.value, articleInput.value);
 
   // create single article container
   const element = createElement("p", resultText);
