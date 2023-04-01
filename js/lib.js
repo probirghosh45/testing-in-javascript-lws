@@ -19,7 +19,7 @@ const validateInput = function (value, required, isNumber) {
     return false;
   }
 
-  if (required && value.toString().trim().length === 0) {
+  if (required && value.trim().length === 0) {
     return false;
   }
 
